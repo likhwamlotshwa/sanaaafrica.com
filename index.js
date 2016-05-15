@@ -10,12 +10,12 @@ const oneHour = (1000 * 60 * 60);
 
 
 const mount = st({
-  path: 'sanaaafrica/', // resolved against the process cwd
+  path: 'sanaaafrica/',
 
 
-  url: '/', // defaults to '/'
+  url: '/',
 
-  cache: { // specify cache:false to turn off caching entirely
+  cache: { 
     fd: {
       max: 1000, // number of fd's to hang on to
       maxAge: oneHour, // amount of ms before fd's expire
